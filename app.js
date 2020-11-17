@@ -28,3 +28,7 @@ newArray.push(firstRemove)
 newArray.push(thirdRemove[0])
 console.log(newArray)
 console.table(newArray)
+
+myList.forEach((list) => {
+  console.log(`{${list[0]}: ${list[1]}}`)
+})
